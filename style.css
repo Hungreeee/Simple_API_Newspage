@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  font-family: Consolas;
+  color: black;
+  display: flex;
+  justify-content: center;
+  background: url("https://pmcdeadline2.files.wordpress.com/2019/12/donald-trump-1-e1577049942608.jpg?w=1000") round;
+  background-size: 20%;
+}
+#container {
+  filter: drop-shadow(0 0 0.75rem white);
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+a, u {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.scrollbar {
+  overflow-y: scroll;
+  width: 100%;
+  height: 577px;
+}
+.container_style {
+  margin: 5px;
+  width: 1000px;
+  border: 0.5px solid black;
+  background: white;
+  padding: 5px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+}
+.container_style:hover {
+  background: #42daf5;
+  border: 0.5px solid transparent;
+}
+.container_style:hover > a {
+  color: white;
+}
+#intro {
+  margin: 5px;
+  padding: 5px;
+  color: grey;
+  text-align: center;
+  width: 1000px;
+}
+#button {
+  width: 100%;
+  height: 80px;
+  margin: 0px;
+  color: white;
+  background: #42a1f5;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+#button:hover {
+  background: url("https://i.pinimg.com/originals/bb/ec/c9/bbecc9990c3587a7c8836dff8caba9c3.gif")
+     round;
+  color: black;
+  font-size: 200%;
+  font-weight: 1000;
+  filter: drop-shadow(0 0 0.75rem white);
+}
+.auName {
+  color: grey;
+  font-size: 15px;
+  font-style: italic;
+}
